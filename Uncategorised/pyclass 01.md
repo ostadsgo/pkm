@@ -62,6 +62,3 @@ if is_win == False:
 
 
 
-
-
-
