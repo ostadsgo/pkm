@@ -19,19 +19,19 @@
 - **`<Ctrl-w> -`**: Decrease the height of the current window.
 - **`<Ctrl-w> >`**: Increase the width of the current window.
 - **`<Ctrl-w> <`**: Decrease the width of the current window.
-- **`<Ctrl-w> _`**: Maximize the height of the current window.
+- **`<Ctrl-w> _`**: ==Maximize the height of the current window.==
 - **`<Ctrl-w> |`**: Maximize the width of the current window.
 
 ---
 
 ### **4. Window Movement**
-- **`<Ctrl-w> r`**: Rotate windows **clockwise**.
+- **`<Ctrl-w> r`**: ==Rotate windows **clockwise**.==
 - **`<Ctrl-w> R`**: Rotate windows **counterclockwise**.
 - **`<Ctrl-w> x`**: Swap the current window with the next window.
 - **`<Ctrl-w> H`**: Move the current window to the far **left**.
 - **`<Ctrl-w> J`**: Move the current window to the **bottom**.
 - **`<Ctrl-w> K`**: Move the current window to the **top**.
-- **`<Ctrl-w> L`**: Move the current window to the far **right**.
+- **`<Ctrl-w> L`**: ==Move the current window to the far **right**.==
 
 ---
 
