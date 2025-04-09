@@ -1,9 +1,9 @@
-### Grid like widget
-The problem is when we use two frames one in the above containing let say buttons and one 
-in the below say entries if the default width of the widgets where equal they may appear like grid.
-But if we different widgets in one row they width are different so they are not going to match with
-the widgets above. 
-To make widgets to match regardless of there width we use `uniform` arguement in `columnconfigure` or `rowconfigure`.
+### Grid like widget The problem is when we use two frames one in the above
+containing let say buttons and one in the below say entries if the default
+width of the widgets where equal they may appear like grid. But if we different
+widgets in one row they width are different so they are not going to match with
+the widgets above. To make widgets to match regardless of there width we use
+`uniform` arguement in `columnconfigure` or `rowconfigure`.
 
 If we don't use `uniform` we must use one frame for header and data part in table example
 
