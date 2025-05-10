@@ -14,6 +14,9 @@
 - [ ] Push ups 3 x 10 :: Growth #workout
 
 ## TODOs
+[ ] Firefox disable hardware acceleration.
+[ ] test edge
+
 ### 2025-05-09 23:52
 - [ ] Form app refactor
 - [ ] Read Crime & Punishment
