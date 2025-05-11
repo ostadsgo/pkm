@@ -14,18 +14,21 @@
 - [ ] Push ups 3 x 10 :: Growth #workout
 
 ## TODOs
-[ ] Firefox disable hardware acceleration.
-[ ] test edge
+
+### 2025-05-11 23:31
+[x] Install doas
+
+### 2025-05-10 23:52
+[x] Firefox disable hardware acceleration.
+[x] Test Edge (hard to install on void linux.Abrout.)
 
 ### 2025-05-09 23:52
 - [ ] Form app refactor
 - [ ] Read Crime & Punishment
-- Done: 0/2 Rate: 0%
 
 ### 2025-05-08 15:54
 - [ ] Form app refactor
 - [x] Read Crime & Punishment
-- Done: 1/2 Rate: 50%
 
 ## Completed Projects
 
