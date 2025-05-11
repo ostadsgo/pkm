@@ -1,6 +1,7 @@
 ## Credo
 - Make money everyday
 - Code everyday
+- Learn everyday
 - Read everyday
 - Workout everyday
 
