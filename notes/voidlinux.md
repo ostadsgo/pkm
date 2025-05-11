@@ -24,8 +24,6 @@ sudo xbps-install -R hostdir/binpkgs/<only_package_name>
 
 
 ## Services
-
-
 ### List of all services
 ```
 ls /etc/sv
@@ -51,26 +49,56 @@ sudo rm /var/service/agetty-tty[3-6]
 sudo sv status <service-name>
 ```
 
-### Sound
-Record voice
+## Sound
+### Record voice
 ```
 arecord -d 5 -f cd test.wav
 aplay test.wav
 ```
 
 
-### Package Management
-
-
+## Package Management
 ### xbps-query
-
 ### Query list
 `sudo xbps-query -l`
 
 ### Package deps
+what are the dependecies of the <pkg-name>
 `sudo xbps-query -x <pkg-name>`
 
 ### Packages require the package
+what packages are depend on <pkg-name>
 `sudo xbps-query -X <pkg-name>`
+
+
+## Doas instead of sudo
+install doas
+```
+sudo xbps-install doas
+
+# config doas
+nvim /etc/doas.conf
+
+# add this to doas.conf
+permit persist :wheel
+```
+
+Force to remove sudo
+`sudo xbps-remove -F sudo` 
+
+
+Another way to delete sudo
+(**Recommended** it didn't use this technique.)
+```
+# create 00-xbps-settings.conf file
+nvim /etc/xbps.d/00-xbps-settings.con
+
+# add this
+ignorepkg=sudo
+
+# remove sudo
+sudo xbps-remove sudo
+```
+
 
 
