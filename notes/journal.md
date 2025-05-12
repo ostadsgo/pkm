@@ -40,6 +40,12 @@ Fitness and Health (FIT)
 - 2027: 
 - 2028: 
 
+## Category and Areas
+- Side Hustle = Turn skills into profit. { content creation }
+- Work = Income. { snapp, teaching, coding }
+- Learning = { academic, career }
+- Growth = reading, workout
+
 
 # Seperate depended goal and execuate them individualy.
 
