@@ -16,6 +16,12 @@
 
 ## TODOs
 
+### 2025-05-12 22:44
+[x] Snapp
+[x] Push up
+[x] Reading 
+
+
 ### 2025-05-11 23:31
 [x] Install doas
 
