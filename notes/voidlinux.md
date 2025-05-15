@@ -3,7 +3,7 @@ xbps-src
 xbps-src used to build and install packages from source which is not in offical repo.
 
 download template of the packages
-    git clone https://github.com/void-linux/void-packages
+    git clone --depth=1 https://github.com/void-linux/void-packages
     cd void-packages
 
 Install build tools 
@@ -12,10 +12,10 @@ Install build tools
 NOTE: Build tools doesn't installed system-wide. The eviroment is chroot like env.
 
 Build packages
-    sudo xbps-src <only_package_name>
+    sudo xbps-src pkg <pkg_name>
 
 Install package
-    sudo xbps-install -R hostdir/binpkgs/<only_package_name>
+    sudo xbps-install -R hostdir/binpkgs <only_package_name>
 
 
 Services
