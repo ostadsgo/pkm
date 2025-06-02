@@ -125,3 +125,14 @@ Check device ip address
 
 Check for connect wifi SSID
     iw dev wlp9s0 link
+
+
+Prevent overwrite /etc/resolv.conf
+==================================
+Method 1
+    sudo vim /etc/dhcpcd
+    nohook resolv.conf
+    sudo sv restart dhcpcd
+
+Method 2: Make resolv.conf immutable
+    sudo chattr +i /etc/resolv.conf

@@ -1,0 +1,8 @@
+Color
+-----
+Get hi group under cursor
+    :echo synIDattr(synID(line('.'), col('.'), 1), 'name')
+
+Get linked group of hi group
+    :hi <color group>
+    :hi htmlTag   # htmlTag links to Identifer
