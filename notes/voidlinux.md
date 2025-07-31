@@ -136,3 +136,10 @@ Method 1
 
 Method 2: Make resolv.conf immutable
     sudo chattr +i /etc/resolv.conf
+
+
+GPU
+=====
+Require for picom and htmi port
+    lspci | grep -i vga
+    sudo xbps-install xf86-video-nouveau
