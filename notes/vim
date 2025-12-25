@@ -6,3 +6,7 @@ Get hi group under cursor
 Get linked group of hi group
     :hi <color group>
     :hi htmlTag   # htmlTag links to Identifer
+
+
+get current file name:
+    <ctrl + g>
