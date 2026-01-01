@@ -1,0 +1,82 @@
+Here are the most useful Vim keys for folding and unfolding code:
+
+## Basic Folding Commands
+
+### Create Folds
+
+- `zc` - Close fold under cursor
+    
+- `zC` - Close all folds under cursor (recursively)
+    
+- `zf` - Create fold for visual selection
+    
+- `zf#j` - Create fold for # lines downward
+    
+- `zf/string` - Create fold until string pattern
+    
+
+### Open Folds
+
+- `zo` - Open fold under cursor
+    
+- `zO` - Open all folds under cursor (recursively)
+    
+- `zr` - Reduce folding level (open more folds)
+    
+- `zR` - Open all folds in file
+    
+
+### Toggle Folds
+
+- `za` - Toggle fold under cursor
+    
+- `zA` - Toggle fold recursively
+    
+
+### Navigation
+
+- `zj` - Move to next fold
+    
+- `zk` - Move to previous fold
+    
+- `[z` - Move to start of open fold
+    
+- `]z` - Move to end of open fold
+    
+
+## Fold Methods
+
+Set fold method with `:set foldmethod=`
+
+- `manual` - Manual folds (created with zf)
+    
+- `indent` - Fold based on indentation
+    
+- `syntax` - Fold based on syntax
+    
+- `marker` - Fold based on markers in code
+    
+
+## Useful Settings
+
+vim
+
+" Enable folding
+set foldenable
+set foldlevelstart=99 " Start with all folds open
+set foldnestmax=10    " Maximum nesting level
+
+## Quick Tips
+
+- `zm` - Increase foldlevel (close more folds)
+    
+- `zM` - Close all folds
+    
+- Use `:mkview` and `:loadview` to save/restore fold states
+    
+- `zd` - Delete fold under cursor
+    
+- `zE` - Eliminate all folds
+    
+
+These commands work across most file types and can significantly improve navigation in large files.
