@@ -1,0 +1,20 @@
+# Begzar
+nameserver 185.55.225.25
+nameserver 185.55.226.26
+
+# electro
+nameserver 78.157.42.100
+nameserver 78.157.42.101
+
+# NTT
+nameserver 129.250.35.250
+nameserver 129.250.35.251
+
+# google
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+
+# Shekan
+nameserver 178.22.122.100
+nameserver 185.51.200.2
+

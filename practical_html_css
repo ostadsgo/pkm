@@ -1,0 +1,21 @@
+
+Specifity is just a fancy word to css decloration precedence. like operator
+precedence in math each style will apply based on specifity.
+they call it specifity because the specific the style will have higher precedence.
+
+style precedence from left to right.
+
+inline, id, class | psudo class | attr selector, html_element
+
+
+li.selected a[href]
+
+inline id  class|.. html
+0      0   2        2
+
+
+#something.anoththing a#tag
+inline id  class|.. html
+0      2   1        1
+
+the second decloration is more specific than first one. becuase id is more specific than class and elements.

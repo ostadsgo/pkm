@@ -1,0 +1,70 @@
+lms-web/
+├── index.html                      # Main entry point (shell)
+├── serve.go                        # Development server
+│
+├── css/
+│   ├── main.css                    # Global styles, resets
+│   ├── components.css              # Reusable component styles
+│   ├── layout.css                  # Grid, flexbox layouts
+│   └── pages/                      # Page-specific styles (optional)
+│       ├── login.css
+│       └── dashboard.css
+│
+├── js/
+│   ├── main.js                     # App initialization, routing setup
+│   ├── config.js                   # Configuration (API URLs, constants)
+│   │
+│   ├── router/
+│   │   └── router.js               # Client-side routing
+│   │
+│   ├── api/
+│   │   ├── client.js               # Base fetch wrapper with auth
+│   │   ├── auth.js                 # Auth endpoints (login, register, refresh)
+│   │   ├── students.js             # Student endpoints
+│   │   ├── teachers.js             # Teacher endpoints
+│   │   └── grades.js               # Grade endpoints
+│   │
+│   ├── components/
+│   │   ├── navbar.js               # Navigation bar
+│   │   ├── sidebar.js              # Dashboard sidebar
+│   │   ├── table.js                # Reusable table component
+│   │   ├── form.js                 # Form helpers
+│   │   ├── modal.js                # Modal/dialog
+│   │   ├── notification.js         # Toast notifications
+│   │   └── card.js                 # Card component
+│   │
+│   ├── pages/
+│   │   ├── public/
+│   │   │   ├── home.js             # Landing page
+│   │   │   ├── login.js            # Login page
+│   │   │   └── register.js         # Registration page
+│   │   │
+│   │   ├── student/
+│   │   │   ├── dashboard.js        # Student dashboard
+│   │   │   ├── grades.js           # View grades
+│   │   │   └── messages.js         # Messages
+│   │   │
+│   │   ├── teacher/
+│   │   │   ├── dashboard.js        # Teacher dashboard
+│   │   │   ├── classes.js          # Manage classes
+│   │   │   └── grade-entry.js      # Enter grades
+│   │   │
+│   │   └── manager/
+│   │       ├── dashboard.js        # Manager dashboard
+│   │       ├── students.js         # Manage students
+│   │       └── teachers.js         # Manage teachers
+│   │
+│   ├── utils/
+│   │   ├── auth.js                 # Auth helpers (isLoggedIn, getUser)
+│   │   ├── storage.js              # localStorage wrapper
+│   │   ├── validation.js           # Form validation
+│   │   └── formatters.js           # Date, number formatting
+│   │
+│   └── state/
+│       └── store.js                # Simple state management
+│
+└── assets/
+    ├── fonts/
+    ├── images/
+    │   └── favicon.png
+    └── icons/                      # SVG icons (optional)
